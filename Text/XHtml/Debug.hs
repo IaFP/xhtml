@@ -1,4 +1,8 @@
+{-# LANGUAGE CPP #-}
 {-# OPTIONS_HADDOCK hide #-}
+#if __GLASGOW_HASKELL__ >= 810
+{-# LANGUAGE PartialTypeConstructors, ConstrainedClassMethods #-}
+#endif
 
 -- | This module contains functions for displaying
 --   HTML as a pretty tree.

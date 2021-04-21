@@ -1,5 +1,7 @@
 {-# OPTIONS_HADDOCK hide #-}
-
+{-# LANGUAGE CPP #-}
+#if __GLASGOW_HASKELL__ >= 810
+#endif
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Text.XHtml.internals

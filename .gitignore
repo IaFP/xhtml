@@ -7,3 +7,4 @@ ghc.mk
 test.hs
 .hub
 .ghc.environment.*
+*.hs.bak
